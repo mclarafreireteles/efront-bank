@@ -1,0 +1,191 @@
+:root {
+  --cor-de-fundo: #F3F4F8;
+  --grey-text: #6A6969;
+  --purple: #9E6EFE;
+  --purple-transparent: rgba(158, 110, 254, 0.06);
+} 
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  display: flex;
+}
+
+.aside {
+  width: 50vh;
+}
+
+.main {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 20rem 3rem 10rem;
+  background-color: var(--cor-de-fundo);
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 1.5rem;
+}
+
+
+
+.head-left h1 {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.head-left p {
+  font-size: 15px;
+  color: var(--grey-text);
+  font-weight: 500;
+}
+
+.head-right__img {
+  display: flex;
+  width: 1.2rem;
+  gap: 1rem;
+}
+
+.buttons {
+  display: flex;
+  gap: .8rem;
+  padding-right: 1rem;
+}
+
+.perfil {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+
+.head-right__img h3 {
+  font-size: 12px;
+  text-wrap: nowrap;
+}
+
+#fotoperfil {
+  border-radius: 50%;
+  width: 2rem;
+  
+}
+
+.graficos {
+  display: flex;
+  justify-content: space-between;
+  width: 120%;
+}
+
+.container-left, .container-right {
+  background-color: white;
+  width: 50%;
+  padding: 1rem 2rem;
+  border-radius: 12px;
+}
+
+.container-right {
+  padding-right: 3rem;
+}
+
+.container-left {
+  padding-right: 1rem;
+}
+
+.grafico {
+  display: flex;
+}
+
+.numeros, .barras{
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+  padding-top: 1rem;
+  width: 1rem;
+  font-size: 14px;
+  color: var(--grey-text);
+}
+
+.barras {
+  padding-top: 1.5rem;
+  text-wrap: nowrap;
+  gap: 1rem;
+  width: 100%;
+  padding-bottom: 1.5rem;
+}
+
+.barra {
+  background-color: var(--purple-transparent);
+  width: 100%;
+  color: var(--purple);
+  padding: .6rem .5rem;
+  border-radius: 6px;
+}
+
+.meses {
+  display: flex;
+  gap: 1rem;
+  padding-top: 3rem;
+  padding-left: 5rem;
+  margin-bottom: .3rem;
+  font-size: 14px;
+  color: var(--grey-text);
+}
+
+.container-right {
+  display: block;
+  width: 50%;
+  margin-left: 2rem;
+}
+
+.meses-barra {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transform: translateX(-50%);
+  gap: .3rem;
+}
+
+.barra-grafico {
+  width: 38px; 
+  height: 100px; 
+  border-radius: 6px;
+  background: #9E6EFE; 
+}
+
+.titulo-grafico-receitas {
+  font-size: 18px;
+}
+
+/* mini cards */
+
+.cards-container {
+  display: flex;
+  margin-top: 1.5rem;
+  width: 120%;
+  justify-content: space-evenly;
+  gap: 2rem;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: .2rem;
+  background-color: white;
+  padding: .8rem 1rem;
+  width: 100%;
+  border-radius: 12px;
+}
+
+.cards-titulo {
+  font-size: 14px;
+}
+
+.cards-valor {
+  font-weight: 600;
+}
