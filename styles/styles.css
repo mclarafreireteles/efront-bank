@@ -3,6 +3,10 @@
   --grey-text: #6A6969;
   --purple: #9E6EFE;
   --purple-transparent: rgba(158, 110, 254, 0.06);
+  --green-transparent: rgba(11, 176, 123, 0.06);
+  --green: rgba(11, 176, 123, 1);
+  --red-transparent: rgba(240, 61, 61, 0.06);
+  --red: rgba(240, 61, 61, 1);
 } 
 
 * {
@@ -187,5 +191,31 @@ body {
 }
 
 .cards-valor {
+  font-weight: 600;
+}
+
+.seta {
+  display: flex;
+  font-size: 13px;
+  gap: .3rem;
+}
+
+.verde {
+  background-color: var(--green-transparent);
+  width: 40%;
+  border-radius: 50px;
+  padding: .2rem 0rem .2rem .5rem;
+  color: var(--green);
+  margin-top: .8rem;
+  font-weight: 600;
+}
+
+.vermelho {
+  background-color: var(--red-transparent);
+  width: 40%;
+  border-radius: 50px;
+  padding: .2rem 0rem .2rem .5rem;
+  color: var(--red);
+  margin-top: .8rem;
   font-weight: 600;
 }
