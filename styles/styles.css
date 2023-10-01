@@ -7,6 +7,7 @@
   --green: rgba(11, 176, 123, 1);
   --red-transparent: rgba(240, 61, 61, 0.06);
   --red: rgba(240, 61, 61, 1);
+  --black: rgba(39, 39, 39, 1);
 } 
 
 * {
@@ -22,13 +23,54 @@ body {
 /* aside */
 
 .aside {
+  display: flex;
+  flex-direction: column;
   width: 50vh;
+  align-items: center;
+  background-color: white;
+  border-radius: 26px;
+  padding: 2.5rem 1.5rem;
+}
+
+.aside-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  
+}
+
+.dashboard {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  gap: .5rem;
+}
+
+.dashboard img{
+  max-width: 1rem;
+}
+
+.dashboard a {
+  text-decoration: none;
+  color: var(--purple);
+}
+
+.aside-btn {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  gap: 1.5rem;
+}
+
+.aside-btn a{
+  text-decoration: none;
+  color: var(--black);
 }
 
 /* main */
 
 .main {
-  width: 100%;
+  width: 130%;
   align-items: center;
   justify-content: center;
   padding: 3rem 20rem 3rem 10rem;
