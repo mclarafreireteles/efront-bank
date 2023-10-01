@@ -19,9 +19,13 @@ body {
   display: flex;
 }
 
+/* aside */
+
 .aside {
   width: 50vh;
 }
+
+/* main */
 
 .main {
   width: 100%;
@@ -219,3 +223,5 @@ body {
   margin-top: .8rem;
   font-weight: 600;
 }
+
+
